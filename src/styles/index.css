@@ -1,0 +1,294 @@
+:root {
+    --bg-main: #2F195F;
+    --bg-secondary: #fbf7ee;
+    --bg-fonction-1: #f8d6c7;
+    --bg-fonction-2: #f5bca9;
+    --text-primary: #202020;
+    --text-secondary: #fbf7ee;
+    --bar: #ec5d39;
+    --icon-primary: #3981ea;
+    --icon-secondary: #483571;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    color: var(--text-primary);
+    font-family: 'poppinsregular';
+}
+
+main {
+    background-color: var(--bg-secondary);
+}
+
+p, h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: 'poppinssemibold';
+    letter-spacing: .1rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.bar {
+    background-color: var(--bar);
+    height: 1vh;
+    width: 3vw;
+    margin-bottom: 3vh;
+}
+
+.icon-primary {
+    color: var(--icon-primary);
+}
+
+.icon-secondary {
+    color: var(--icon-secondary);
+}
+
+.icon-calendar {
+    padding: 1em;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: var(--icon-secondary);
+    margin-bottom: 3vh;
+}
+
+nav a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    margin-right: 4vw;
+}
+
+nav p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.btn {
+    display: flex;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+    border-radius: 20px;
+    text-decoration-color: var(--bg-secondary);
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: .3em;
+    align-self: center;
+    justify-content: center;
+}
+
+.btn p {
+    color: var(--bg-secondary);
+}
+
+.btn-primary {
+    background-color: var(--bar);
+}
+
+.btn-secondary {
+    background-color: var(--bg-main);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    background-color: var(--bg-main);
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    padding-right: 2vw;
+}
+
+.top p, .top h1 {
+    color: var(--bg-secondary);
+}
+
+.top nav {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    justify-content: flex-start;
+    margin-top: 1vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10vh;
+}
+
+header img {
+    width: 10%;
+    margin-left: 2vw;
+}
+
+.top h1 {
+    margin-bottom: 15vh;
+    margin-top: 2vh;
+}
+
+.top .content {
+    width: 80%;
+    margin-left: auto;
+}
+
+.top .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2vw;
+}
+
+.top h1 {
+    font-size: 4rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-location {
+    margin-right: 2vw;
+}
+
+.location p {
+    font-size: 1.3rem;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.main-content {
+    background-color: var(--bg-main);
+}
+
+.container {
+    padding: 15vh 25% 0 25%;
+    background-color: var(--bg-secondary);
+    border-top-left-radius: 20vw;
+}
+
+.container section {
+    padding-bottom: 15vh;
+}
+
+.container section h1 {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    font-size: 2.3rem;
+}
+
+.paragraph {
+    padding-bottom: 3vh;
+}
+
+.paragraph p {
+    line-height: 1.6rem;
+}
+
+.container section .footer {
+    display: flex;
+    margin-top: 5vh;
+}
+
+.fonctions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fonction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.fonction-content {
+    border-radius: 2rem;
+    padding: 2vh 2vw 2vh 2vw;
+    margin-top: 1vh;
+    height: 100%;
+}
+
+.fonction h2 {
+    font-size: 1.5rem;
+    font-family: 'poppinsregular';
+}
+
+.fonction-content-1 {
+    background-color: var(--bg-fonction-1);
+}
+
+.fonction-content-2 {
+    background-color: var(--bg-fonction-2);
+}
+
+.fonction p {
+    margin-top: 4vh;
+    font-size: .9rem;
+    text-align: justify;
+    text-justify: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-main);
+    padding: 10vh 15vw;
+    color: var(--text-secondary);
+}
+
+footer img {
+    width: 70%;
+}
+
+footer .left {
+    width: 33%;
+}
+
+footer nav {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .bar {
+    margin-top: 5vh;
+}
+
+.contact {
+    align-self: center;
+    margin-left: auto;
+    width: min(20vw, 400px);
+}
+
+.contact .image {
+padding-right: 1vw;
+}
+
+.contact .row {
+    margin-bottom: 5vh;
+}
