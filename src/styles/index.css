@@ -431,10 +431,22 @@ footer .bar {
 padding-right: 1vw;
 }
 
+.mail {
+    margin-bottom: 2vh;
+    background-color: var(--bg-main);
+    transition: 300ms ease-in 100ms;
+}
+
+.mail:hover {
+    background-color: var(--bar);
+    padding: 1vh 1vw;
+    border-radius: 3vw;
+    transition: 300ms ease-in 100ms;
+}
+
 .contact .row {
     margin-bottom: 5vh;
     width: 100%;
-    height: 100%;
     justify-content: center;
 }
 
