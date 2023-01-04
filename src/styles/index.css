@@ -76,17 +76,16 @@ nav p {
 }
 
 .btn {
-    display: flex;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 1.3vh;
-    padding-bottom: 1.3vh;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 1.3vh 2vw;
+    text-align: center;
+    display: inline-block;
     border-radius: 20px;
     text-decoration-color: var(--bg-secondary);
     text-decoration-thickness: 0.1em;
     text-underline-offset: .3em;
-    align-self: center;
-    justify-content: center;
 }
 
 .btn p {
@@ -184,8 +183,11 @@ header img {
 }
 
 .container {
-    padding: 15vh 25% 0 25%;
+    padding: 15vh 15% 0 15%;
     background-color: var(--bg-secondary);
+}
+
+.corner {
     border-top-left-radius: 20vw;
 }
 
@@ -250,6 +252,18 @@ header img {
     font-size: .9rem;
     text-align: justify;
     text-justify: auto;
+}
+
+.container-structure {
+    background-color: var(--bg-main);
+    color: var(--text-secondary);
+    padding: 3vh 40% 3vh 15%;
+}
+
+.container-structure h1 {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    font-size: 2.3rem;
 }
 
 footer {
