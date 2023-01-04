@@ -187,6 +187,16 @@ header img {
     background-color: var(--bg-secondary);
 }
 
+.container-2 {
+    padding: 0 15% 0 15%;
+    background-color: var(--bg-secondary);
+}
+
+.container-3 {
+    padding: 15vh 15% 15vh 15%;
+    background-color: var(--bg-secondary);
+}
+
 .corner {
     border-top-left-radius: 20vw;
 }
@@ -256,18 +266,20 @@ header img {
 
 
 .block_sortie{
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  background-color: white;
-  padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--bg-secondary);
+    padding: 2rem;
 
 }
 
 .block_sortie_content img{
-  width: 180px;
-  height: auto;
-  border-radius: 1rem;
+    width: 180px;
+    height: auto;
+    border-radius: 1rem;
+}
 
 .container-structure {
     background-color: var(--bg-main);
@@ -279,6 +291,33 @@ header img {
     margin-top: 3vh;
     margin-bottom: 5vh;
     font-size: 2.3rem;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    border: solid;
+    border-color: var(--bar);
+    border-radius: 15px;
+    border-width: 3px;
+    padding: 6vh 0;
+}
+
+.form .btn {
+    margin-left: 4vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.form .logo {
+    position: absolute;
+    top: 0;
+    left: 4vw;
+    margin-top: -3vh;
+    justify-content: center;
+    background-color: var(--bg-secondary);
+    text-align: center;
+    width: 7vw;
 }
 
 footer {
