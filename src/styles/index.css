@@ -252,6 +252,21 @@ header img {
     text-justify: auto;
 }
 
+.block_sortie{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  background-color: white;
+  padding: 2rem;
+
+}
+
+.block_sortie_content img{
+  width: 180px;
+  height: auto;
+  border-radius: 1rem;
+}
+
 footer {
     display: flex;
     flex-direction: row;
