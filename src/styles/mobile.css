@@ -1,0 +1,209 @@
+:root {
+    --bg-main: #2F195F;
+    --bg-secondary: #fbf7ee;
+    --bg-fonction-1: #f8d6c7;
+    --bg-fonction-2: #f5bca9;
+    --text-primary: #202020;
+    --text-secondary: #fbf7ee;
+    --bar: #ec5d39;
+    --icon-primary: #3981ea;
+    --icon-secondary: #483571;
+}
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    .bar {
+        align-self: center;
+        width: 20%;
+    }
+
+    .top header p {
+        display: none;
+    }
+
+    .top nav {
+        width: 100%;
+        margin-top: 0;
+        display: inline;
+    }
+
+    .top .content {
+        margin-right: auto;
+    }
+
+    .top h1, footer h1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10vh;
+    }
+
+    .top .footer {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top a {
+        display: none;
+    }
+
+    .top a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topNav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topNav.responsive a {
+        display: block;
+        text-align: left;
+    }
+
+    .location p {
+        font-size: min(4vw, 11.7rem)
+    }
+
+    .location svg {
+        width: 10vw;
+    }
+
+    .container section h1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container section .footer {
+        justify-content: center;
+    }
+
+    .container .bar {
+        width: 40%;
+    }
+
+    .icon-calendar svg {
+        width: 10vw;
+        height: auto;
+    }
+
+    .fonctions {
+        overflow-x: scroll;
+        justify-content: flex-start !important;
+        gap: 5vw;
+    }
+
+    .fonction {
+        margin-bottom: 5vh;
+        flex: 0 0 100%;
+    }
+
+    .fonction-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bar-2 {
+        width: 30%;
+    }
+
+    .title-sorties, .container-structure h1 {
+        display: flex;
+        flex-direction: column;
+        font-size: max(1.5rem, 3.2vw)
+    }
+
+    .title-sorties .bar, .container-structure .bar{
+        width: 40%;
+    }
+
+    .block-sortie {
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+
+    .container-structure {
+        padding: 10vh 15% 10vh 15%;
+    }
+    
+    .container-3 {
+        padding: 10vh 10% 10vh 10%;
+    }
+
+    .phone {
+        position: initial;
+        transform: translate(0%, 0%);
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .phone img {
+        width: 50%;
+        height: 50%;
+        margin: 5vw 0;
+    }
+
+    .form {
+        padding: 5vh 0;
+    }
+
+    .form .logo {
+        visibility: hidden;
+    }
+
+    .form .logos {
+        align-self: center;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .form .logos {
+        gap: 5vw;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer h1 {
+        width: 100%;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+        margin-bottom: 2vh;
+    }
+
+    .contact {
+        margin-left: 0;
+        margin-top: 4vh;
+    }
+
+    .contact .row {
+        flex-direction: column-reverse;
+        margin-bottom: 2vh;
+    }
+
+    .contact h1 {
+        margin-bottom: 0;
+    }
+
+}

@@ -75,12 +75,26 @@ nav a {
     text-decoration: none;
     margin-right: 4vw;
     font-size: 1.4rem;
+    float: left;
+    display: block;
 }
 
 nav p {
     font-size: 1.7rem;
     font-weight: bold;
     align-self: flex-start;
+}
+
+nav .icon {
+    display: none;
+}
+
+.menu {
+    height: 0;
+}
+
+.x {
+    height: 0;
 }
 
 .btn {
@@ -98,7 +112,7 @@ nav p {
 
 .btn p {
     color: var(--bg-secondary);
-    font-size: 1.5rem;
+    font-size: max(1.7vw, 1.3rem);
     font-family: 'poppinsbold';
     display: flex;
     align-items: center;
@@ -163,7 +177,7 @@ header p {
 .top h1 {
     margin-bottom: 15vh;
     margin-top: 2vh;
-    font-size: 5.5rem;
+    font-size: 6vw;
 }
 
 .top .content {
@@ -233,7 +247,7 @@ header p {
 .container section h1 {
     margin-top: 3vh;
     margin-bottom: 5vh;
-    font-size: 2.9rem;
+    font-size: max(1.5rem, 3.2vw);
     font-family: 'poppinsbold';
 }
 
@@ -243,7 +257,7 @@ header p {
 
 .paragraph p {
     line-height: 2rem;
-    font-size: 1.4rem;
+    font-size: max(.9rem, 1.6vw);
 }
 
 .container section .footer {
@@ -292,7 +306,7 @@ header p {
 }
 
 
-.block_sortie{
+.block-sortie{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -302,8 +316,8 @@ header p {
 
 }
 
-.block_sortie_content img{
-    width: 180px;
+.block-sortie-content img{
+    width: 175px;
     height: auto;
     border-radius: 1rem;
 }
@@ -440,7 +454,7 @@ padding-right: 1vw;
 .mail:hover {
     background-color: var(--bar);
     padding: 1vh 1vw;
-    border-radius: 3vw;
+    border-radius: 3 vw;
     transition: 300ms ease-in 100ms;
 }
 
