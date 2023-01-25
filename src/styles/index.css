@@ -111,9 +111,6 @@ nav .icon {
     color: var(--bg-secondary);
     font-size: max(1.7vw, 1rem);
     font-family: 'poppinsbold';
-    display: flex;
-    align-items: center;
-    gap: 1vw;
 }
 
 .btn-primary {
@@ -337,6 +334,12 @@ header p {
     padding-bottom: 5vh;
     font-size: 2.9rem;
     font-family: 'poppinsbold';
+}
+
+.container-structure .btn p {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
 }
 
 .form {
