@@ -214,6 +214,10 @@ header p {
     background-color: var(--bg-main);
 }
 
+.bg-secondary {
+    background-color: var(--bg-secondary);
+}
+
 .container {
     padding: 15vh 15% 0 15%;
     background-color: var(--bg-secondary);
