@@ -162,6 +162,12 @@
         animation: translate-sorties 17s ease-in-out infinite;
     }
 
+    .block-sortie-content img{
+        width: 175px;
+        height: auto;
+        border-radius: 1rem;
+    }
+
     .container-structure {
         padding: 10vh 15% 10vh 15%;
         display: flex;
