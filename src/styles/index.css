@@ -13,6 +13,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -74,7 +75,7 @@ nav a {
     color: var(--text-secondary);
     text-decoration: none;
     margin-right: 4vw;
-    font-size: 1.4rem;
+    font-size: 2vw;
     float: left;
     display: block;
 }
@@ -89,12 +90,8 @@ nav .icon {
     display: none;
 }
 
-.menu {
-    height: 0;
-}
-
-.x {
-    height: 0;
+.menu-icon {
+    display: none;
 }
 
 .btn {
@@ -112,7 +109,7 @@ nav .icon {
 
 .btn p {
     color: var(--bg-secondary);
-    font-size: max(1.7vw, 1.3rem);
+    font-size: max(1.7vw, 1rem);
     font-family: 'poppinsbold';
     display: flex;
     align-items: center;
@@ -177,7 +174,7 @@ header p {
 .top h1 {
     margin-bottom: 15vh;
     margin-top: 2vh;
-    font-size: 6vw;
+    font-size: max(1.7rem, 6vw);
 }
 
 .top .content {
